@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background: radial-gradient(circle, #020111, #000000);
+    overflow: hidden;
+    height: 100vh;
+    cursor: pointer;
+    font-family: "Arial", sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .instructions {
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 10;
+    color: #1E90FF; /* Azul */
+    text-shadow: 1px -1px 7px rgb(142 142 142 / 80%);
+  }
+  
+  .projectile {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.4);
+  }
+  
+  .particule {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #1E90FF; /* Azul */
+    border-radius: 50%;
+    transform: scale(0);
+    opacity: 0;
+  }
+  
+  .sparkle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1E90FF; /* Azul */
+    transform: scale(0);
+    opacity: 0;
+  }
+  
