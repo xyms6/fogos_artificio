@@ -1,4 +1,3 @@
-const API_URL = 'https://mhmovie-ebb6czbdbxbzcvfr.canadacentral-01.azurewebsites.net/api';
 const cores = ["#1E90FF"];  // Azul para as faíscas
 
 function criarFogoDeArtificio(x, y) {
