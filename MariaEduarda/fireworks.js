@@ -1,4 +1,5 @@
 const cores = ["#1E90FF"];  // Azul para as faíscas
+const baseUrl = 'xyms-artificio-eqhwc7e7cwbghadq.canadacentral-01.azurewebsites.net'
 
 function criarFogoDeArtificio(x, y) {
   const alturaDeLançamento = Math.random() * (window.innerHeight / 4) + window.innerHeight / 4;
